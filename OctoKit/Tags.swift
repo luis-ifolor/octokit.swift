@@ -16,12 +16,13 @@ import FoundationNetworking
 
 public struct Tag: Codable {
     public let name: String
-    public let zipballURL: String
-    public let tarballURL: String
+    public let zipballURL: URL
+    public let tarballURL: URL
+    public let commit: String
     public let nodeId: String
 
     enum CodingKeys: String, CodingKey {
-        case name
+        case name, commit
         case zipballURL = "zipball_url"
         case tarballURL = "tarball_url"
         case nodeId = "node_id"

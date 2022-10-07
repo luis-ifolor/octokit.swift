@@ -181,6 +181,9 @@
 		BA63130128F03F010091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
 		BA63130228F03F050091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
 		BA63130328F03F0D0091F441 /* TagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FE28F03E8A0091F441 /* TagsTests.swift */; };
+		BA63130528F041310091F441 /* tags.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63130428F041310091F441 /* tags.json */; };
+		BA63130628F041310091F441 /* tags.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63130428F041310091F441 /* tags.json */; };
+		BA63130728F041310091F441 /* tags.json in Resources */ = {isa = PBXBuildFile; fileRef = BA63130428F041310091F441 /* tags.json */; };
 		BF8C719220F02AC04EF3D137 /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
 		BF8C725A44F262E5305385CC /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
 		BF8C732A1D13EFA1DE994A6B /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
@@ -336,6 +339,7 @@
 		9D9ADDE023EEFDE0000AC34D /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		BA6312FC28F03BBD0091F441 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
 		BA6312FE28F03E8A0091F441 /* TagsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsTests.swift; sourceTree = "<group>"; };
+		BA63130428F041310091F441 /* tags.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tags.json; path = Fixtures/tags.json; sourceTree = "<group>"; };
 		BF8C72B985869B84F46B4E9D /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		BF8C73E0EF3CEEBDEA68DD5E /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
 		BF8C76EB002802C14A08F63E /* PullRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestTests.swift; sourceTree = "<group>"; };
@@ -477,6 +481,7 @@
 				23EA619C25EAE31A001B0964 /* reactions.json */,
 				23EA619F25EAE31A001B0964 /* releases.json */,
 				23EA619E25EAE31A001B0964 /* reviews.json */,
+				BA63130428F041310091F441 /* tags.json */,
 			);
 			name = Fixtures;
 			sourceTree = "<group>";
@@ -823,6 +828,7 @@
 				234F4BDE1BDDE44600A58EF7 /* repo.json in Resources */,
 				23EA61B425EAE31A001B0964 /* pull_requests.json in Resources */,
 				234F4BE11BDDE44600A58EF7 /* user_repos.json in Resources */,
+				BA63130528F041310091F441 /* tags.json in Resources */,
 				234F4BE01BDDE44600A58EF7 /* user_mietzmithut.json in Resources */,
 				23EA61AB25EAE31A001B0964 /* reviews.json in Resources */,
 				23EA61AE25EAE31A001B0964 /* releases.json in Resources */,
@@ -869,6 +875,7 @@
 				23F643481C7AEF66000427B3 /* repo.json in Resources */,
 				23EA61B525EAE31A001B0964 /* pull_requests.json in Resources */,
 				23F6434E1C7AEF6F000427B3 /* user_repos.json in Resources */,
+				BA63130628F041310091F441 /* tags.json in Resources */,
 				23F6434C1C7AEF6C000427B3 /* user_mietzmithut.json in Resources */,
 				23EA61AC25EAE31A001B0964 /* reviews.json in Resources */,
 				23EA61AF25EAE31A001B0964 /* releases.json in Resources */,
@@ -907,6 +914,7 @@
 				23F643491C7AEF67000427B3 /* repo.json in Resources */,
 				23EA61B625EAE31A001B0964 /* pull_requests.json in Resources */,
 				23F6434F1C7AEF70000427B3 /* user_repos.json in Resources */,
+				BA63130728F041310091F441 /* tags.json in Resources */,
 				23F6434D1C7AEF6D000427B3 /* user_mietzmithut.json in Resources */,
 				23EA61AD25EAE31A001B0964 /* reviews.json in Resources */,
 				23EA61B025EAE31A001B0964 /* releases.json in Resources */,
