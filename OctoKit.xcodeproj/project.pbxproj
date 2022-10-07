@@ -175,6 +175,12 @@
 		665D5D6724A639E00045E3B4 /* statuses.json in Resources */ = {isa = PBXBuildFile; fileRef = 665D5D5E24A639D70045E3B4 /* statuses.json */; };
 		9D9ADDDF23EEFD4A000AC34D /* ReviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9ADDDE23EEFD4A000AC34D /* ReviewTests.swift */; };
 		9D9ADDE123EEFDE0000AC34D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9ADDE023EEFDE0000AC34D /* Review.swift */; };
+		BA6312FD28F03BBD0091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
+		BA6312FF28F03E8A0091F441 /* TagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FE28F03E8A0091F441 /* TagsTests.swift */; };
+		BA63130028F03EFC0091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
+		BA63130128F03F010091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
+		BA63130228F03F050091F441 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FC28F03BBD0091F441 /* Tags.swift */; };
+		BA63130328F03F0D0091F441 /* TagsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6312FE28F03E8A0091F441 /* TagsTests.swift */; };
 		BF8C719220F02AC04EF3D137 /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
 		BF8C725A44F262E5305385CC /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
 		BF8C732A1D13EFA1DE994A6B /* PullRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C76EB002802C14A08F63E /* PullRequestTests.swift */; };
@@ -328,6 +334,8 @@
 		665D5D5F24A639D70045E3B4 /* status.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = status.json; path = Fixtures/status.json; sourceTree = "<group>"; };
 		9D9ADDDE23EEFD4A000AC34D /* ReviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTests.swift; sourceTree = "<group>"; };
 		9D9ADDE023EEFDE0000AC34D /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		BA6312FC28F03BBD0091F441 /* Tags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		BA6312FE28F03E8A0091F441 /* TagsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsTests.swift; sourceTree = "<group>"; };
 		BF8C72B985869B84F46B4E9D /* Parameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
 		BF8C73E0EF3CEEBDEA68DD5E /* PullRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequest.swift; sourceTree = "<group>"; };
 		BF8C76EB002802C14A08F63E /* PullRequestTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PullRequestTests.swift; sourceTree = "<group>"; };
@@ -436,6 +444,7 @@
 				23EA618125EAE2FA001B0964 /* PreviewHeaderTests.swift */,
 				23EA618325EAE2FA001B0964 /* ReactionsTests.swift */,
 				23EA618225EAE2FA001B0964 /* StatusesTests.swift */,
+				BA6312FE28F03E8A0091F441 /* TagsTests.swift */,
 			);
 			name = OctoKitTests;
 			path = Tests/OctoKitTests;
@@ -500,6 +509,7 @@
 				D1EAE8612503D33B0023806C /* PreviewHeader.swift */,
 				D1EAE86A2503D9280023806C /* Reactions.swift */,
 				D1EAE8472503886C0023806C /* Plan.swift */,
+				BA6312FC28F03BBD0091F441 /* Tags.swift */,
 			);
 			path = OctoKit;
 			sourceTree = "<group>";
@@ -938,6 +948,7 @@
 				5090ED7623E48EE60062C763 /* ReleasesTests.swift in Sources */,
 				23A0521F1CA924950068BFF7 /* OctoKitURLTestSession.swift in Sources */,
 				234F4BD01BDDE3F900A58EF7 /* ConfigurationTests.swift in Sources */,
+				BA6312FF28F03E8A0091F441 /* TagsTests.swift in Sources */,
 				D1EAE85625038BBE0023806C /* PlanTests.swift in Sources */,
 				515337F222529D590024544D /* GistTests.swift in Sources */,
 				234F4BD21BDDE3F900A58EF7 /* OctokitSwiftTests.swift in Sources */,
@@ -972,6 +983,7 @@
 				9D9ADDE123EEFDE0000AC34D /* Review.swift in Sources */,
 				E7EDEA6A1C871CEB006BAAF2 /* Issue.swift in Sources */,
 				DAEFC5901C83D85100CF3785 /* Label.swift in Sources */,
+				BA6312FD28F03BBD0091F441 /* Tags.swift in Sources */,
 				665D5D5A24A639960045E3B4 /* Statuses.swift in Sources */,
 				BF8C7BE0F4071324EBDCA204 /* PullRequest.swift in Sources */,
 				BF8C7567F24BC2E1EB83EE57 /* Parameters.swift in Sources */,
@@ -982,6 +994,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63130028F03EFC0091F441 /* Tags.swift in Sources */,
 				23CAF2A51C7AB6C2005011C4 /* Follow.swift in Sources */,
 				D1EAE8632503D33B0023806C /* PreviewHeader.swift in Sources */,
 				23CAF2AE1C7AB6CD005011C4 /* Repositories.swift in Sources */,
@@ -1038,6 +1051,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63130128F03F010091F441 /* Tags.swift in Sources */,
 				23CAF2A61C7AB6C2005011C4 /* Follow.swift in Sources */,
 				D1EAE8642503D33B0023806C /* PreviewHeader.swift in Sources */,
 				23CAF2AF1C7AB6CD005011C4 /* Repositories.swift in Sources */,
@@ -1068,6 +1082,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63130328F03F0D0091F441 /* TagsTests.swift in Sources */,
 				23CAF2BD1C7AB6FC005011C4 /* FollowTests.swift in Sources */,
 				D4D28F6E2299D87A00F8E92A /* LabelTests.swift in Sources */,
 				23CAF2C51C7AB709005011C4 /* StarsTests.swift in Sources */,
@@ -1094,6 +1109,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA63130228F03F050091F441 /* Tags.swift in Sources */,
 				23CAF2A71C7AB6C3005011C4 /* Follow.swift in Sources */,
 				D1EAE8652503D33B0023806C /* PreviewHeader.swift in Sources */,
 				23CAF2B01C7AB6CE005011C4 /* Repositories.swift in Sources */,
