@@ -15,10 +15,15 @@ import FoundationNetworking
 // MARK: model
 
 public struct Tag: Codable {
+    public struct TagCommit: Codable {
+        let sha: String
+        let url: URL
+    }
+
     public let name: String
     public let zipballURL: URL
     public let tarballURL: URL
-    public let commit: String
+    public let commit: TagCommit
     public let nodeId: String
 
     enum CodingKeys: String, CodingKey {
